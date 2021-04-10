@@ -1,14 +1,14 @@
 ## Tailwind CSS Laravel Front-end Preset
 
-[![Latest Stable Version](https://poser.pugx.org/zaknesler/tailwind-preset/v/stable)](https://packagist.org/packages/zaknesler/tailwind-preset) [![Total Downloads](https://poser.pugx.org/zaknesler/tailwind-preset/downloads)](https://packagist.org/packages/zaknesler/tailwind-preset) [![License](https://poser.pugx.org/zaknesler/tailwind-preset/license)](https://packagist.org/packages/zaknesler/tailwind-preset)
+[![Latest Stable Version](https://poser.pugx.org/meabed/tailwind-preset/v/stable)](https://packagist.org/packages/meabed/tailwind-preset) [![Total Downloads](https://poser.pugx.org/meabed/tailwind-preset/downloads)](https://packagist.org/packages/meabed/tailwind-preset) [![License](https://poser.pugx.org/meabed/tailwind-preset/license)](https://packagist.org/packages/meabed/tailwind-preset)
 
 Laravel 7+ front-end preset for [Tailwind CSS](https://tailwindcss.com). Includes Vue.js (and an example component), a clean and fully-responsive UI, and the utilization of Blade components to reduce code duplication.
 
 This preset also uses Laravel Mix to compile and minify assets. Tailwind comes packaged with PurgeCSS, and this preset is configured to purge the proper files.
 
-> This preset is built for Laravel 7 and up. For Laravel 5 or 6, please use [version 5.0](https://github.com/zaknesler/tailwind-preset/tree/v5.0.0).
+> This preset is built for Laravel 7 and up. For Laravel 5 or 6, please use [version 5.0](https://github.com/meabed/tailwind-preset/tree/v5.0.0).
 
-**[Example Repository](https://github.com/zaknesler/tw-preset-demo)**
+**[Example Repository](https://github.com/meabed/tw-preset-demo)**
 
 <details>
 <summary>View preview screenshots</summary>
@@ -32,7 +32,7 @@ This preset also uses Laravel Mix to compile and minify assets. Tailwind comes p
 1. Require the composer dependency. Laravel will automatically register the package.
 
    ```bash
-   composer require zaknesler/tailwind-preset --dev
+   composer require meabed/tailwind-preset --dev
    ```
 
 2. Install the preset:
