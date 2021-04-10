@@ -1,6 +1,6 @@
 <?php
 
-namespace ZakNesler\TailwindPreset;
+namespace Meabed\TailwindPreset;
 
 use Illuminate\Support\Str;
 use Laravel\Ui\Presets\Preset;

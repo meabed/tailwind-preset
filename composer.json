@@ -1,5 +1,5 @@
 {
-    "name": "zaknesler/tailwind-preset",
+    "name": "meabed/tailwind-preset",
     "description": "A Tailwind CSS preset for Laravel.",
     "keywords": [
         "laravel",
@@ -16,21 +16,21 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.2",
-        "laravel/ui": "^2.2",
-        "illuminate/console": "^7.0|^8.0",
-        "illuminate/filesystem": "^7.0|^8.0",
-        "illuminate/support": "^7.0|^8.0"
+        "php": "^7.3 | 8.*",
+        "laravel/ui": "^2.5",
+        "illuminate/console": "^7|^8",
+        "illuminate/filesystem": "^7|^8",
+        "illuminate/support": "^7|^8"
     },
     "autoload": {
         "psr-4": {
-            "ZakNesler\\TailwindPreset\\": "src/"
+            "Meabed\\TailwindPreset\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ZakNesler\\TailwindPreset\\TailwindServiceProvider"
+                "Meabed\\TailwindPreset\\TailwindServiceProvider"
             ]
         }
     }

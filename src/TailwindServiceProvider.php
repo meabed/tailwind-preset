@@ -1,6 +1,6 @@
 <?php
 
-namespace ZakNesler\TailwindPreset;
+namespace Meabed\TailwindPreset;
 
 use Laravel\Ui\UiCommand;
 use Illuminate\Support\ServiceProvider;
